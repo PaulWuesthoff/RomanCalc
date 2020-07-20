@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAB566A224C31D290078C838 /* StringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB566A124C31D290078C838 /* StringValidator.swift */; };
 		DAC6004A248B9CF500FE9DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC60049248B9CF500FE9DCD /* AppDelegate.swift */; };
 		DAC6004C248B9CF500FE9DCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6004B248B9CF500FE9DCD /* SceneDelegate.swift */; };
 		DAC6004E248B9CF500FE9DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6004D248B9CF500FE9DCD /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DAB566A124C31D290078C838 /* StringValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringValidator.swift; sourceTree = "<group>"; };
 		DAC60046248B9CF500FE9DCD /* RomanCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC60049248B9CF500FE9DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC6004B248B9CF500FE9DCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAB566A024C31CFE0078C838 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAB566A124C31D290078C838 /* StringValidator.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DAC6003D248B9CF500FE9DCD = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		DAC60048248B9CF500FE9DCD /* RomanCalc */ = {
 			isa = PBXGroup;
 			children = (
+				DAB566A024C31CFE0078C838 /* Extensions */,
 				DAC60049248B9CF500FE9DCD /* AppDelegate.swift */,
 				DAC6004B248B9CF500FE9DCD /* SceneDelegate.swift */,
 				DAC6004D248B9CF500FE9DCD /* ViewController.swift */,
@@ -143,6 +154,7 @@
 			files = (
 				DAC6005E248B9DFD00FE9DCD /* RoundButton.swift in Sources */,
 				DAC6004E248B9CF500FE9DCD /* ViewController.swift in Sources */,
+				DAB566A224C31D290078C838 /* StringValidator.swift in Sources */,
 				DAC6004A248B9CF500FE9DCD /* AppDelegate.swift in Sources */,
 				DAC6004C248B9CF500FE9DCD /* SceneDelegate.swift in Sources */,
 			);
