@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         else if sender.tag == 17
         {
             if(!previousRomanNumber.isValid() || !romanNumbers.text!.isValid()){
-                let alert = UIAlertController(title: "Wrong roman NUmeral", message: "The roman numeral you inserted is incorrect, please check", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Wrong roman Numeral", message: "The roman numeral you inserted is incorrect, please check", preferredStyle: .alert)
 
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
 
