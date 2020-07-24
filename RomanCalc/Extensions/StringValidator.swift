@@ -10,9 +10,9 @@ import Foundation
 
 extension String {
     func isValid() -> Bool {
-        let format = "SELF MATCHES %@";
-        let regex = "^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$";
-        return NSPredicate(format: format, regex).evaluate(with: self);
+        let format = "SELF MATCHES %@"
+        let regex = "^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$"
+        return NSPredicate(format: format, regex).evaluate(with: self)
     }
 }
 

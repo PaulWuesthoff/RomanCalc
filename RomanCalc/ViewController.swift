@@ -68,22 +68,35 @@ class ViewController: UIViewController {
                 romanNumbers.text = ""
             }
             if(operation == 13){
-                let result = previousRomanNumber.toArabic()! - romanNumbers.text!.toArabic()!
+                var result = previousRomanNumber.toArabic()! - romanNumbers.text!.toArabic()!
+                if(result < 0){
+                    //because romannumbers are always positive
+                    result = result * -1
+                }
                     label.text = String(result)
                     romanNumbers.text = decimalToRoman(value: result)
             }
             else if(operation == 14){
-                let result = previousRomanNumber.toArabic()! + romanNumbers.text!.toArabic()!
+                var result = previousRomanNumber.toArabic()! + romanNumbers.text!.toArabic()!
+                if(result < 0){
+                    result = result * -1
+                }
                     label.text = String(result)
                     romanNumbers.text = decimalToRoman(value: result)
             }
             else if(operation == 15){
-                 let result = previousRomanNumber.toArabic()! * romanNumbers.text!.toArabic()!
+                 var result = previousRomanNumber.toArabic()! * romanNumbers.text!.toArabic()!
+                if(result < 0){
+                    result = result * -1
+                }
                      label.text = String(result)
                      romanNumbers.text = decimalToRoman(value: result)
             }
             else if(operation == 16){
-            let result = previousRomanNumber.toArabic()! / romanNumbers.text!.toArabic()!
+            var result = previousRomanNumber.toArabic()! / romanNumbers.text!.toArabic()!
+                if(result < 0){
+                    result = result * -1
+                }
                 label.text = String(result)
                 romanNumbers.text = decimalToRoman(value: result)
             }
